@@ -1,0 +1,69 @@
+.form {
+  width: 360px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #1d1c20;
+  letter-spacing: 0.04em;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form > label input {
+  border: 2px solid #1d1c20;
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: none;
+  font-size: inherit;
+  color: #1d1c20;
+}
+
+.form > label input:hover,
+.form > label input:focus { 
+  border-color: #747373;
+}
+
+.form > label input:active {
+  border-color: #1d1c20;
+}
+
+.form fieldset {
+  border: 2px solid #1d1c20;
+  border-radius: 4px;
+  padding: 16px 48px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 48px;
+}
+
+.form fieldset label:hover {
+  color: #747373;
+  cursor: pointer;
+}
+
+.form input[type='radio'] {
+  accent-color: #747373;
+}
+
+.form button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #1d1c20;
+  border: none;
+  width: 100%;
+}
+
+.form button:hover,
+.form button:focus {
+  background: #747373;
+}
