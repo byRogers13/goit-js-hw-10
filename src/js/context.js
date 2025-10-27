@@ -11,9 +11,7 @@ iziToast.settings({
 
 const toastMessage = message => iziToast.show({ message: [message] });
 
-//* --------------------
-//* TASK: timer
-//* --------------------
+// Timer
 
 export const timer = {
   intervalID: null,
@@ -95,9 +93,7 @@ export const options = {
   },
 };
 
-//* --------------------
-//* TASK: snackbar
-//* --------------------
+// Snackbar
 
 export const elements = {
   form: document.querySelector('.form'),
